@@ -1,5 +1,7 @@
 //jshint esversion:6
 
+process.env.NODE_VERSION = '18.17.0';
+
 const express = require("express");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
